@@ -61,14 +61,15 @@
           </div>
         </nav>
       </div>
-      <!-- Main Content -->
-      <div class="row mt-3">
+<!-- Main Content -->
+    <div class="row mt-3">
           <!-- SET COLUMNS to wrap when screen especially small: see col-12 lg- 
         ****Can use ALL breakpoints to set up many different screen size options-->
-      <!-- Left 2/3 column -->
+    <!-- Left 2/3 column -->
+        <div class="col-12 col-lg-8 px-0 order-1 order-md-0">
         <!-- WAS: <div class= "col-8"> 
-            now stays whole-width until large screen size-->
-      <div class="col-12 col-lg-8">
+            now stays whole-width until large screen size
+        also added 0 padding left (ps) when medium or bigger-->
           <!-- top card -->
             <div class="card mb-3">
                 <div class="card-body">
@@ -85,18 +86,41 @@
                     <h5 class="card-title">TITLE HEADING</h5>
                     <h6 class="card-subtitle my-2">Card subtitle</h6>
                     <img src="https://via.placeholder.com/500x100" class="card-img" alt="paceholder image">
-                    <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text mt-2">Some text.</p>
                     <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores impedit necessitatibus corrupti voluptatem quis ratione similique, vel odit veniam nulla eum mollitia quidem ipsum animi fugit cumque nihil, labore non?</p>
                 </div>
             </div>
       </div>
-      <!-- Right 1/2 column -->
+      <!-- Right 1/3 column -->
         <!-- WAS: <div class= "col-8"> 
             now stays whole-width until large screen size-->
-      <div class="col-12 col-lg-4">
-        right side main
+      <div class="col-12 col-lg-4 px-0 ps-md-3 order-sm-0">
+        <!-- Ambout me -->
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Me</h5>
+                <img src="https://via.placeholder.com/500x100" class="card-img" alt="paceholder image">
+                <p class="card-text mt-2">Some text.</p>
+            </div>
+        </div>
+        <!-- interesting list -->
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Interesting List</h5>
+                <img src="https://via.placeholder.com/500x100" class="card-img" alt="paceholder image">
+                <img src="https://via.placeholder.com/500x100" class="card-img" alt="paceholder image">
+                <img src="https://via.placeholder.com/500x100" class="card-img" alt="paceholder image">
+            </div>
+        </div>
+        <!-- follow me -->
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Follow Me</h5>
+                <p class="card-text mt-2">Some text.</p>
+            </div>
+        </div>
       </div>
-      </div>
+    </div>
     </div>
   </body>
 </html>
